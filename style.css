@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: monospace;
+    background-image: url(image/teste.png);
+
+  }
+
+  #image-login {
+    width: 170px;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 250px;
+    padding: 25px;
+    width: 400px;
+    height: 420px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    text-align: center;
+  }
+
+  input {
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+  .form-entrada {
+    font-size: 25px;
+  }
+  
+  #input-text {
+    width: 250px;
+    height: 30px
+  }
+
+  #input-text:hover {
+    background-color: #bdbebd;
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+  }
+  
+  #input-senha {
+    width: 250px;
+    height: 30px
+  }
+
+  #input-senha:hover {
+    background-color: #bdbebd;
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+  }
+  
+  .botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  #submit {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #submit:hover {
+    background-color: #2F35A8;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+  }
+
